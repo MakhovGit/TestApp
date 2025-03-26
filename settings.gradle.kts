@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "TestApp"
 include(":app")
 include(":core")
+include(":screen_onboarding")

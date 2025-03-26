@@ -39,6 +39,8 @@ android {
 }
 
 dependencies {
+    // Modules
+    implementation(project(Modules.SCREEN_ONBOARDING))
 
     // Android
     implementation(libs.androidx.core.ktx)
