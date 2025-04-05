@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title begin -->
+    <string name="title">Тысячи курсов \nв одном месте</string>
+    <!-- Title end -->
+
+    <!-- Tags begin -->
+    <string name="tag1">1С Администрирование</string>
+    <string name="tag2">RabbitMQ</string>
+    <string name="tag3">Трафик</string>
+    <string name="tag4">Контент маркетинг</string>
+    <string name="tag5">B2B маркетинг</string>
+    <string name="tag6">Google Аналитика</string>
+    <string name="tag7">UX исследователь</string>
+    <string name="tag8">Веб-аналитика</string>
+    <string name="tag9">Big Data</string>
+    <string name="tag10">Геймдизайн</string>
+    <string name="tag11">Веб-дизайн</string>
+    <string name="tag12">Cinema 4D</string>
+    <string name="tag13">Промпт инженеринг</string>
+    <string name="tag14">Webflow</string>
+    <string name="tag15">Three.js</string>
+    <string name="tag16">Парсинг</string>
+    <string name="tag17">Python-разработка</string>
+    <!-- Tags end -->
+
+    <!-- Button begin -->
+    <string name="button">Продолжить</string>
+    <!-- Button end -->
+
+</resources>

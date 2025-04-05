@@ -40,6 +40,7 @@ android {
 
 dependencies {
     // Modules
+    implementation(project(Modules.CORE))
     implementation(project(Modules.SCREEN_ONBOARDING))
 
     // Android

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Root style begin-->
+    <style name="MyAppStyle" />
+    <!-- Root style end-->
+
+    <!-- Screen title begin -->
+    <style name="MyAppStyle.ScreenTitle">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">@dimen/title_margin_top</item>
+    </style>
+    <!-- Screen title end -->
+
+    <!-- Tag begin-->
+    <style name="MyAppStyle.Tag" />
+
+    <style name="MyAppStyle.Tag.BlurView">
+        <item name="android:layout_margin">@dimen/tag_margin</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.CardView">
+        <item name="android:layout_margin">@dimen/tag_margin</item>
+        <item name="cardCornerRadius">@dimen/tag_corner_radius</item>
+        <item name="cardElevation">@dimen/common_0dp</item>
+        <item name="strokeWidth">@dimen/common_0dp</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.CardView.Dark">
+        <item name="android:background">@color/glass</item>
+        <item name="android:backgroundTint">@color/glass</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.CardView.Light">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:rotation">@integer/tag_counterclockwise_rotation</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.ConstraintLayout">
+        <item name="android:padding">@dimen/tag_padding</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.ConstraintLayout.Dark">
+        <item name="android:background">@color/glass</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.ConstraintLayout.Light">
+        <item name="android:background">@drawable/bg_card</item>
+    </style>
+
+    <style name="MyAppStyle.Tag.TextView">
+        <item name="android:textColor">@color/white_text</item>
+    </style>
+    <!-- Tag end-->
+
+</resources>

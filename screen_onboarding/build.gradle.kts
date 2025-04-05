@@ -37,10 +37,16 @@ android {
 
 dependencies {
 
+    // Modules
+    implementation(project(Modules.CORE))
+
     // Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    // BlurView
+    implementation(libs.blurview)
 
     // Tests
     testImplementation(libs.junit)
