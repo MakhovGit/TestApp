@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Email label begin -->
+    <dimen name="fsl_email_label_margin_top">25dp</dimen>
+    <dimen name="fsl_email_label_text_size">16sp</dimen>
+    <!-- Email label end -->
+
+    <!-- Email edit begin -->
+    <dimen name="fsl_email_edit_margin_top">10dp</dimen>
+    <dimen name="fsl_email_edit_padding_horizontal">20dp</dimen>
+    <dimen name="fsl_email_edit_padding_vertical">10dp</dimen>
+    <!-- Email edit end -->
+
+    <!-- Password label begin -->
+    <dimen name="fsl_password_label_margin_top">20dp</dimen>
+    <dimen name="fsl_password_label_text_size">16sp</dimen>
+    <!-- Password label end -->
+
+    <!-- Password edit begin -->
+    <dimen name="fsl_password_edit_margin_top">10dp</dimen>
+    <dimen name="fsl_password_edit_padding_horizontal">20dp</dimen>
+    <dimen name="fsl_password_edit_padding_vertical">10dp</dimen>
+    <!-- Password edit end -->
+
+    <!-- Login button begin -->
+    <dimen name="fsl_login_button_margin_top">20dp</dimen>
+    <!-- Login button end -->
+
+    <!-- Text container begin -->
+    <dimen name="fsl_text_container_margin_top">10dp</dimen>
+    <!-- Text container end -->
+
+    <!-- No account label begin -->
+    <dimen name="fsl_no_account_label_margin_horizontal">5dp</dimen>
+    <dimen name="fsl_no_account_label_text_size">15sp</dimen>
+    <!-- No account label end -->
+
+    <!-- Register label begin -->
+    <dimen name="fsl_register_label_margin_horizontal">5dp</dimen>
+    <dimen name="fsl_register_label_text_size">15sp</dimen>
+    <!-- Register label end -->
+
+    <!-- Forgot password label begin -->
+    <dimen name="fsl_forgot_password_label_text_size">15sp</dimen>
+    <!-- Forgot password label end -->
+
+    <!-- Divider begin -->
+    <dimen name="fsl_divider_margin_top">40dp</dimen>
+    <!-- Divider end -->
+
+    <!-- Button container begin -->
+    <dimen name="fsl_button_container_margin_top">20dp</dimen>
+    <!-- Button container end -->
+
+    <!-- Social button begin -->
+    <dimen name="fsl_social_button_iconSize">26dp</dimen>
+    <!-- Social button end -->
+
+    <!-- Vk button begin -->
+    <dimen name="fsl_vk_button_margin_end">5dp</dimen>
+    <dimen name="fsl_vk_button_insetTop">5dp</dimen>
+    <dimen name="fsl_vk_button_insetBottom">-5dp</dimen>
+    <!-- Vk button end -->
+
+    <!-- Ok button begin -->
+    <dimen name="fsl_ok_button_margin_start">5dp</dimen>
+    <dimen name="fsl_ok_button_insetLeft">5dp</dimen>
+    <dimen name="fsl_ok_button_insetRight">-5dp</dimen>
+    <!-- Ok button end -->
+
+</resources>

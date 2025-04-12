@@ -24,3 +24,4 @@ rootProject.name = "TestApp"
 include(":app")
 include(":core")
 include(":screen_onboarding")
+include(":screen_login")

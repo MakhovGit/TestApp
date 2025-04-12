@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Social button begin -->
+    <integer name="fsl_gradient_angle">270</integer>
+    <integer name="fsl_gradient_radius">90</integer>
+    <integer name="fsl_button_weight">1</integer>
+    <!-- Social button end -->
+
+    <!-- Text edit begin -->
+    <integer name="fsl_text_edit_max_lines">1</integer>
+    <!-- Text edit begin -->
+
+</resources>

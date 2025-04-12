@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Title begin -->
-    <dimen name="title_margin_top">150dp</dimen>
-    <dimen name="title_text_size">30sp</dimen>
-    <!-- Title end -->
-
     <!-- Scroll begin -->
     <dimen name="scroll_margin_vertical">30dp</dimen>
     <!-- Scroll end -->

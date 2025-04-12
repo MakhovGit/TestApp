@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login button begin -->
+    <style name="MyAppStyle.LoginButton">
+        <item name="backgroundTint">@color/login_button_background_tint</item>
+    </style>
+    <!-- Login button end -->
+
+    <!-- Social button begin -->
+    <style name="MyAppStyle.SocialButtonBase">
+        <item name="android:layout_weight">@integer/fsl_button_weight</item>
+        <item name="android:gravity">center</item>
+        <item name="iconGravity">textStart</item>
+        <item name="iconPadding">@dimen/common_0dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="iconSize">@dimen/fsl_social_button_iconSize</item>
+    </style>
+
+    <style name="MyAppStyle.SocialButtonBase.VkButton">
+        <item name="android:layout_marginEnd">@dimen/fsl_vk_button_margin_end</item>
+        <item name="android:background">@drawable/vk_button_background</item>
+        <item name="icon">@drawable/vk_button_icon_inset</item>
+    </style>
+
+    <style name="MyAppStyle.SocialButtonBase.OkButton">
+        <item name="android:layout_marginStart">@dimen/fsl_ok_button_margin_start</item>
+        <item name="android:background">@drawable/ok_button_background</item>
+        <item name="icon">@drawable/ok_button_icon_inset</item>
+    </style>
+    <!-- Social button end -->
+
+</resources>

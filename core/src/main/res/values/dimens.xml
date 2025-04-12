@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Commons begin -->
     <dimen name="common_0dp">0dp</dimen>
+    <dimen name="common_padding_horizontal">10dp</dimen>
+    <dimen name="common_button_corner_radius">30dp</dimen>
+    <dimen name="common_edit_text_corner_radius">30dp</dimen>
+    <!-- Commons end -->
+
+    <!-- Title begin -->
+    <dimen name="title_margin_top">150dp</dimen>
+    <dimen name="title_text_size">30sp</dimen>
+    <!-- Title begin -->
+
 </resources>

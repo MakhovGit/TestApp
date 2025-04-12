@@ -34,3 +34,8 @@ object ScreenOnboardingConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.screen_onboarding"
     const val viewBinding = true
 }
+
+object ScreenLoginConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.screen_login"
+    const val viewBinding = true
+}

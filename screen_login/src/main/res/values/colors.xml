@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Social button begin -->
+    <color name="vk_button">#FF2683ED</color>
+    <color name="ok_button1">#FFF98509</color>
+    <color name="ok_button2">#FFF95D00</color>
+    <color name="button_ripple">#5FFFFFFF</color>
+    <!-- Social button end -->
+
+    <!-- Login button begin -->
+    <color name="login_button_disabled">#FF444444</color>
+    <!-- Login button end -->
+
+</resources>

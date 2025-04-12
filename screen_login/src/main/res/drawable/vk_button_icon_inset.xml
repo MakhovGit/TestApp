@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/vk_button_icon"
+    android:insetTop="@dimen/fsl_vk_button_insetTop"
+    android:insetBottom="@dimen/fsl_vk_button_insetBottom" />

@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Root style begin-->
-    <style name="MyAppStyle" />
-    <!-- Root style end-->
-
-    <!-- Screen title begin -->
-    <style name="MyAppStyle.ScreenTitle">
-        <item name="android:textSize">@dimen/title_text_size</item>
-        <item name="android:textColor">@color/white_text</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:layout_marginTop">@dimen/title_margin_top</item>
-    </style>
-    <!-- Screen title end -->
-
     <!-- Tag begin-->
     <style name="MyAppStyle.Tag" />
 

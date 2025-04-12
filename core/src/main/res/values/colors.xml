@@ -8,4 +8,5 @@
     <color name="dark">#FF151515</color>
     <color name="glass">#32333A4D</color>
     <color name="transparent">#00000000</color>
+    <color name="text_edit_hint">#50F2F2F3</color>
 </resources>

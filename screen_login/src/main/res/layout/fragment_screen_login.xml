@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fsl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingHorizontal="@dimen/common_padding_horizontal">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/fsl_title"
+        style="@style/MyAppStyle.ScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fsl_title"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/fsl_email_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_email_label_margin_top"
+        android:text="@string/fsl_email_label"
+        android:textAlignment="textStart"
+        android:textColor="@color/white_text"
+        android:textSize="@dimen/fsl_email_label_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_title" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/fsl_email_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_email_edit_margin_top"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/fsl_email_edit_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:maxLines="@integer/fsl_text_edit_max_lines"
+        android:paddingHorizontal="@dimen/fsl_email_edit_padding_horizontal"
+        android:paddingVertical="@dimen/fsl_email_edit_padding_vertical"
+        android:singleLine="true"
+        android:textColorHint="@color/text_edit_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_email_label" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/fsl_password_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_password_label_margin_top"
+        android:text="@string/fsl_password_label"
+        android:textAlignment="textStart"
+        android:textColor="@color/white_text"
+        android:textSize="@dimen/fsl_password_label_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_email_edit" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/fsl_password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_password_edit_margin_top"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/fsl_password_edit_hint"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:maxLines="@integer/fsl_text_edit_max_lines"
+        android:paddingHorizontal="@dimen/fsl_password_edit_padding_horizontal"
+        android:paddingVertical="@dimen/fsl_password_edit_padding_vertical"
+        android:singleLine="true"
+        android:textColorHint="@color/text_edit_hint"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_password_label" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fsl_login_button"
+        style="@style/MyAppStyle.LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_login_button_margin_top"
+        android:enabled="false"
+        android:inputType="text"
+        android:text="@string/fsl_login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_password_edit" />
+
+    <LinearLayout
+        android:id="@+id/fsl_text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_text_container_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_login_button">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fsl_no_account_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/fsl_no_account_label_margin_horizontal"
+            android:text="@string/fsl_no_account_label"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:textSize="@dimen/fsl_no_account_label_text_size" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/fsl_register_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/fsl_register_label_margin_horizontal"
+            android:text="@string/fsl_register_label"
+            android:textAlignment="center"
+            android:textColor="@color/green"
+            android:textSize="@dimen/fsl_register_label_text_size" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/fsl_forgot_password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fsl_forgot_password_label"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="@dimen/fsl_forgot_password_label_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_text_container" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/fsl_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_divider_margin_top"
+        app:dividerColor="@color/glass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_forgot_password_label" />
+
+    <LinearLayout
+        android:id="@+id/fsl_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsl_button_container_margin_top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsl_divider">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fsl_vk_button"
+            style="@style/MyAppStyle.SocialButtonBase.VkButton"
+            android:layout_width="@dimen/common_0dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fsl_ok_button"
+            style="@style/MyAppStyle.SocialButtonBase.OkButton"
+            android:layout_width="@dimen/common_0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

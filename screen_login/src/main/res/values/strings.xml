@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Title begin -->
+    <string name="fsl_title">Вход</string>
+    <!-- Title end -->
+
+    <!-- Email block begin -->
+    <string name="fsl_email_label">Email</string>
+    <string name="fsl_email_edit_hint">example@gmail.com</string>
+    <!-- Email block end -->
+
+    <!-- Password block begin -->
+    <string name="fsl_password_label">Пароль</string>
+    <string name="fsl_password_edit_hint">Введите пароль</string>
+    <!-- Password block end -->
+
+    <!-- Login button begin -->
+    <string name="fsl_login_button">Вход</string>
+    <!-- Login button end -->
+
+    <!-- Hints block begin -->
+    <string name="fsl_no_account_label">Нет аккаунта?</string>
+    <string name="fsl_register_label">Регистрация</string>
+    <string name="fsl_forgot_password_label">Забыл пароль</string>
+    <!-- Hints block end -->
+
+</resources>
