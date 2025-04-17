@@ -43,6 +43,7 @@ dependencies {
     implementation(project(Modules.CORE))
     implementation(project(Modules.SCREEN_ONBOARDING))
     implementation(project(Modules.SCREEN_LOGIN))
+    implementation(project(Modules.SCREEN_MAIN))
 
     // Android
     implementation(libs.androidx.core.ktx)

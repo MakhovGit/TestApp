@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Search edit begin -->
+    <string name="fsm_search_edit_hint">Search courses…</string>
+    <!-- Search edit end -->
+
+    <!-- Filter button begin -->
+    <string name="fsm_filter_button_content_description">Filer button</string>
+    <!-- Filter button end -->
+
+    <!-- Filter label begin -->
+    <string name="fsm_filter_label">По дате добавления</string>
+    <!-- Filter label end -->
+
+</resources>

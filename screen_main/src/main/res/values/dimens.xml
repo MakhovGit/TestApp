@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Search container begin -->
+    <dimen name="fsm_search_container_margin_top">20dp</dimen>
+    <!-- Search container end -->
+
+    <!-- Search string begin -->
+    <dimen name="fsm_search_edit_margin_end">5dp</dimen>
+    <dimen name="fsm_search_edit_drawable_padding">10dp</dimen>
+    <dimen name="fsm_search_edit_padding">20dp</dimen>
+    <!-- Search string end -->
+
+    <!-- Filter button begin -->
+    <dimen name="fsm_filter_button_margin_start">5dp</dimen>
+    <dimen name="fsm_filter_button_padding">21dp</dimen>
+    <!-- Filter button end -->
+
+    <!-- Text container begin -->
+    <dimen name="fsm_text_container_margin_top">10dp</dimen>
+    <!-- Text container end -->
+
+    <!-- Filter icon begin -->
+    <dimen name="fsm_filter_icon_margin_start">5dp</dimen>
+    <dimen name="fsm_filter_icon_translation_y">2dp</dimen>
+    <!-- Filter icon end -->
+
+</resources>
