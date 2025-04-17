@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fsf_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/common_padding_horizontal">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/fsf_title"
+        style="@style/MyAppStyle.ScreenTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fsf_title_margin_top"
+        android:text="@string/fsf_title"
+        android:textAlignment="textStart"
+        app:layout_constraintBottom_toTopOf="@id/fsf_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fsf_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_0dp"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fsf_title" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

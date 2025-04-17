@@ -44,3 +44,8 @@ object ScreenMainConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.screen_main"
     const val viewBinding = true
 }
+
+object ScreenFavoritesConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.screen_favorites"
+    const val viewBinding = true
+}
