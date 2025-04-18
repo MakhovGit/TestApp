@@ -9,7 +9,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_container"
-        android:name="com.example.app.testapp.screen_favorites.ui.FavoritesScreenFragment"
+        android:name="com.example.app.testapp.screen_account.ui.AccountScreenFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toTopOf="parent"

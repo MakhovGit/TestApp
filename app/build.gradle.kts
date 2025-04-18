@@ -46,6 +46,7 @@ dependencies {
     implementation(project(Modules.SCREEN_LOGIN))
     implementation(project(Modules.SCREEN_MAIN))
     implementation(project(Modules.SCREEN_FAVORITES))
+    implementation(project(Modules.SCREEN_ACCOUNT))
 
     // Android
     implementation(libs.androidx.core.ktx)
