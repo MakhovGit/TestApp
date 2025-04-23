@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Bottom menu begin -->
+    <style name="MyAppStyle.BottomMenu.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/indicator</item>
+    </style>
+
+    <style name="MyAppStyle.BottomMenu" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemIconTint">@color/menu_item_color</item>
+        <item name="itemPaddingBottom">@dimen/activity_bottom_navigation_item_padding_bottom</item>
+        <item name="itemTextColor">@color/menu_item_color</item>
+        <item name="itemRippleColor">@color/button_ripple</item>
+        <item name="android:background">@color/dark</item>
+        <item name="backgroundTint">@color/dark_gray</item>
+        <item name="itemActiveIndicatorStyle">@style/MyAppStyle.BottomMenu.Indicator</item>
+    </style>
+    <!-- Bottom menu end -->
+
+</resources>

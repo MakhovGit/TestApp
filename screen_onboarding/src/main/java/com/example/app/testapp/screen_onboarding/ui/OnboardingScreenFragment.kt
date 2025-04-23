@@ -12,6 +12,7 @@ import android.widget.HorizontalScrollView
 import androidx.annotation.ColorInt
 import androidx.fragment.app.Fragment
 import com.example.app.testapp.core.data.ZERO
+import com.example.app.testapp.navigation.data.navigation.MainNavigation
 import com.example.app.testapp.screen_onboarding.databinding.FragmentScreenOnboardingBinding
 import eightbitlab.com.blurview.BlurView
 
@@ -71,6 +72,13 @@ class OnboardingScreenFragment : Fragment() {
         }
     }
 
+    private fun initButton() {
+        binding.btnSubmit.setOnClickListener {
+            val navigation = activity as? MainNavigation
+            navigation?.openLoginScreen()
+        }
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -83,6 +91,7 @@ class OnboardingScreenFragment : Fragment() {
         darkTags = getDarkTagsList()
         scrollToCenter(scroller = binding.hsvTagsScroller)
         applyAllBlurTags()
+        initButton()
     }
 
     override fun onDestroyView() {

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/navigation_onboarding">
+
+    <fragment
+        android:id="@+id/navigation_onboarding"
+        android:name="com.example.app.testapp.screen_onboarding.ui.OnboardingScreenFragment"
+        android:label="@string/navigation_onboarding"
+        tools:layout="@layout/fragment_screen_onboarding" />
+
+    <fragment
+        android:id="@+id/navigation_login"
+        android:name="com.example.app.testapp.screen_login.ui.LoginScreenFragment"
+        android:label="@string/navigation_login"
+        tools:layout="@layout/fragment_screen_login" />
+
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.example.app.testapp.screen_main.ui.MainScreenFragment"
+        android:label="@string/navigation_main"
+        tools:layout="@layout/fragment_screen_main" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.example.app.testapp.screen_favorites.ui.FavoritesScreenFragment"
+        android:label="@string/navigation_favorites"
+        tools:layout="@layout/fragment_screen_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.example.app.testapp.screen_account.ui.AccountScreenFragment"
+        android:label="@string/navigation_account"
+        tools:layout="@layout/fragment_screen_account" />
+
+</navigation>

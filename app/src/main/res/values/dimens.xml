@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Divider begin -->
+    <dimen name="activity_divider_height">1dp</dimen>
+    <!-- Divider end -->
+
+    <!-- Bottom menu begin -->
+    <dimen name="activity_bottom_navigation_padding_top">10dp</dimen>
+    <dimen name="activity_bottom_navigation_padding_bottom">20dp</dimen>
+    <dimen name="activity_bottom_navigation_item_padding_bottom">5dp</dimen>
+    <!-- Bottom menu end -->
+
+</resources>

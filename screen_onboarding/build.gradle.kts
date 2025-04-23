@@ -39,6 +39,7 @@ dependencies {
 
     // Modules
     implementation(project(Modules.CORE))
+    implementation(project(Modules.NAVIGATION))
 
     // Android
     implementation(libs.androidx.core.ktx)
@@ -47,6 +48,10 @@ dependencies {
 
     // BlurView
     implementation(libs.blurview)
+
+    // Navigation
+    implementation(libs.navigation.ui.ktx)
+    implementation(libs.navigation.fragment.ktx)
 
     // Tests
     testImplementation(libs.junit)

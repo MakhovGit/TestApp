@@ -30,6 +30,10 @@ object CoreConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.core"
 }
 
+object NavigationConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.navigation"
+}
+
 object ScreenOnboardingConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.screen_onboarding"
     const val viewBinding = true

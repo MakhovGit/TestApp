@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_gray">#FF24252A</color>
+    <color name="divider">#FF4D555E</color>
+    <color name="indicator">#FF32333A</color>
+</resources>

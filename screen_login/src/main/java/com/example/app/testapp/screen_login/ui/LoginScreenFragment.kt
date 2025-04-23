@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.app.testapp.navigation.data.navigation.MainNavigation
 import com.example.app.testapp.screen_login.databinding.FragmentScreenLoginBinding
 
 class LoginScreenFragment : Fragment() {
@@ -18,9 +19,16 @@ class LoginScreenFragment : Fragment() {
         return binding.root
     }
 
+    private fun initButton() {
+        binding.fslLoginButton.setOnClickListener {
+            val navigation = requireActivity() as? MainNavigation
+            navigation?.openMainScreen()
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
+        initButton()
     }
 
     override fun onDestroyView() {

@@ -7,7 +7,6 @@
 
         <item name="colorSecondary">@color/glass</item>
         <item name="colorOnSecondary">@color/white_text</item>
-        <item name="android:background">@color/dark</item>
         <item name="android:textColorPrimary">@color/white_text</item>
     </style>
 

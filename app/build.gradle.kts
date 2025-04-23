@@ -42,6 +42,7 @@ dependencies {
 
     // Modules
     implementation(project(Modules.CORE))
+    implementation(project(Modules.NAVIGATION))
     implementation(project(Modules.SCREEN_ONBOARDING))
     implementation(project(Modules.SCREEN_LOGIN))
     implementation(project(Modules.SCREEN_MAIN))
@@ -54,6 +55,13 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // Navigation
+    implementation(libs.navigation.ui.ktx)
+    implementation(libs.navigation.fragment.ktx)
+
+    // BlurView
+    implementation(libs.blurview)
 
     // Tests
     testImplementation(libs.junit)
