@@ -53,6 +53,10 @@ dependencies {
     implementation(libs.navigation.ui.ktx)
     implementation(libs.navigation.fragment.ktx)
 
+    // Koin
+    implementation(project.dependencies.platform(libs.koin.bom))
+    implementation(libs.bundles.koin.bundle)
+
     // Tests
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

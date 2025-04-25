@@ -56,6 +56,10 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
+    // Koin
+    implementation(project.dependencies.platform(libs.koin.bom))
+    implementation(libs.bundles.koin.bundle)
+
     // Navigation
     implementation(libs.navigation.ui.ktx)
     implementation(libs.navigation.fragment.ktx)

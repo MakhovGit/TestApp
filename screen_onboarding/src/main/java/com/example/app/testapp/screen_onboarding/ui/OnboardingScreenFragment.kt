@@ -11,6 +11,8 @@ import android.view.ViewOutlineProvider
 import android.widget.HorizontalScrollView
 import androidx.annotation.ColorInt
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
 import com.example.app.testapp.core.data.ZERO
 import com.example.app.testapp.navigation.data.navigation.MainNavigation
 import com.example.app.testapp.screen_onboarding.databinding.FragmentScreenOnboardingBinding
