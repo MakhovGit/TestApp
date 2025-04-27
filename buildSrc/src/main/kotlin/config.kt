@@ -30,6 +30,10 @@ object CoreConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.core"
 }
 
+object NetworkConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.network"
+}
+
 object NavigationConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.navigation"
 }

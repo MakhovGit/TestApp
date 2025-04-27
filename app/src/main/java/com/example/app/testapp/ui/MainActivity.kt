@@ -12,7 +12,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.app.testapp.R
-import com.example.app.testapp.core.data.ZERO
+import com.example.app.testapp.core.extensions.ZERO
 import com.example.app.testapp.databinding.ActivityMainBinding
 import com.example.app.testapp.navigation.data.navigation.MainNavigation
 

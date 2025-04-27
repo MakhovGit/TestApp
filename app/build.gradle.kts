@@ -43,6 +43,7 @@ dependencies {
     // Modules
     implementation(project(Modules.CORE))
     implementation(project(Modules.NAVIGATION))
+    implementation(project(Modules.NETWORK))
     implementation(project(Modules.SCREEN_ONBOARDING))
     implementation(project(Modules.SCREEN_LOGIN))
     implementation(project(Modules.SCREEN_MAIN))
@@ -66,6 +67,9 @@ dependencies {
 
     // BlurView
     implementation(libs.blurview)
+
+    // ThreeTenABP
+    implementation(libs.threetenabp)
 
     // Tests
     testImplementation(libs.junit)

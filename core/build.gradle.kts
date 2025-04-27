@@ -39,6 +39,9 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 
+    // ThreeTenABP
+    implementation(libs.threetenabp)
+
     // Tests
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
